@@ -1,0 +1,27 @@
+@font-face {
+    font-family: SourceSans;
+    font-weight: 400;
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSans;
+    font-weight: 700;
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+}
+
+body {
+    font-family: SourceSans;
+}
+
+*::-webkit-scrollbar {
+    background: rgb(179, 179, 179);
+    border-radius: 25px;
+    height: 7px;
+    width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(41, 41, 41);
+    border-radius: 25px;
+}
